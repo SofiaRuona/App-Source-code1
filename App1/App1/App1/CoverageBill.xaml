@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.CoverageBill"
+             Title="Coverage Bill">
+  
+  <StackLayout VerticalOptions="Center">
+    <Grid>
+      <StackLayout HorizontalOptions="Center">
+        <StackLayout Orientation="Horizontal">
+          <Label Text="Entry 1"></Label>
+          <Label Text="1000"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+          <Label Text="Entry 2"></Label>
+          <Label Text="2000"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+          <Label Text="Total"></Label>
+          <Label Text="3000"></Label>
+        </StackLayout>
+      </StackLayout>
+    </Grid>
+<Grid Padding="10"></Grid>
+    <Button Text="Go" x:Name="BtnGo" Clicked="BtnGo_OnClicked"></Button>
+</StackLayout>
+  
+</ContentPage>

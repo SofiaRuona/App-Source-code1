@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.SignImageDone"
+             Title="Sign Image Done">
+  
+  <StackLayout VerticalOptions="Center">
+    <Grid>
+      <StackLayout VerticalOptions="Center">
+      <Label Text="some text" HorizontalTextAlignment="Center"></Label>
+      <Image Source="signdone.jpg"></Image>
+    </StackLayout>
+    </Grid>
+  <Grid Padding="10"></Grid>
+<Grid>
+  <Button Text="Go" x:Name="BtnGo" Clicked="BtnGo_OnClicked"></Button>
+  
+</Grid>
+    
+
+
+    
+</StackLayout>
+  
+</ContentPage>

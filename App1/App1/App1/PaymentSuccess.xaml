@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.PaymentSuccess"
+             Title="Payment Succeded">
+  
+  <StackLayout VerticalOptions="Center">
+    <Image Source="paymentsuccess.jpg"></Image>
+    <Grid>
+      <StackLayout HorizontalOptions="Center">
+        <StackLayout Orientation="Horizontal">
+          <Image Source="imagecapture1.jpg"></Image>
+          <Image Source="galery.jpg"></Image>
+        </StackLayout>
+        <Image Source="imagecapture2.jpg"></Image>
+        <Grid Padding="10"></Grid>
+      </StackLayout>
+    </Grid>
+    <Button Text="Go" x:Name="BtnGo" Clicked="BtnGo_OnClicked"></Button>
+</StackLayout>
+  
+</ContentPage>

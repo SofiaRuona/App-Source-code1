@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.PreviewImageCaptured"
+             Title="Preview Captured Image">
+  
+  <StackLayout VerticalOptions="Center">
+    <Grid>
+      <StackLayout VerticalOptions="Center">
+      <Label Text="some text" HorizontalTextAlignment="Center"></Label>
+      <Image Source="imagepreview.jpg"></Image>
+    </StackLayout>
+    </Grid>
+  <Grid Padding="10"></Grid>
+
+      <StackLayout Orientation="Horizontal">
+      <Button Text="Retake Image" x:Name="BtnRetakeImage" Clicked="BtnRetakeImage_OnClicked"></Button>
+      <Button Text="Go To Sign" x:Name="BtnGoSign" Clicked="BtnGoSign_OnClicked"></Button>
+    </StackLayout>
+
+
+    
+</StackLayout>
+  
+</ContentPage>
